@@ -1,6 +1,6 @@
 import express from "express";
 import { connectDb } from "./config/connectDb";
-import userRouter from "./router/User";
+import userRouter from "./router/user";
 import categoryRouter from "./router/category"
 import postRouter from "./router/post"
 import tagRouter from "./router/tag";
