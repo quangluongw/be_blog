@@ -7,7 +7,7 @@ export const singup = async (req, res) => {
     const { username, email, password, role } = req.body;
     const { error } = reqSchema.validate(req.body, {
       abortEarly: false,
-    });
+    }); 
     if (error) {
       const list = error.details.map((issue) => ({
         message: issue.message,
