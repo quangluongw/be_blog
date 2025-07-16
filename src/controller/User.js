@@ -1,4 +1,4 @@
-import { User } from "../model/User";
+import { User } from "../model/user";
 import hash from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { loginSchema, reqSchema } from "../Schema/auth";
