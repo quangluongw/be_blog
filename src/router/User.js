@@ -10,7 +10,7 @@ import {
   signin,
   refreshTokenHandler,
   logout,
-} from "../controller/user";
+} from "../controller/User";
 const router = express.Router();
 router.post("/register", singup);
 router.get("/user", GetUser);
