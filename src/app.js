@@ -13,4 +13,5 @@ app.use("/api", categoryRouter);
 app.use("/api", postRouter);
 app.use("/api", tagRouter);
 
-export const viteNodeApp = app;
+// export const viteNodeApp = app;
+export default app;
